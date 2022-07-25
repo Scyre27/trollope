@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 0) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  body aside {
+    display: none;
+  }
+  body #right-panel {
+    width: 100%;
+  }
+  body #right-panel header {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  body #right-panel header .top-left {
+    width: 100%;
+  }
+  body #right-panel header .top-right {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body aside {
+    display: block;
+  }
+  body #right-panel {
+    background-color: red;
+  }
+  body #right-panel header #menuToggle {
+    display: none;
+  }
+}
